@@ -37,3 +37,16 @@ h1 span:nth-child(5){
 .first{
 	font-size: 0.85rem;
 }
+
+.nav-padding{
+	padding: 50% 1%;
+}
+
+.navbar{
+	--bs-navbar-toggler-border-color: rgba(255,255,255,1);
+	--bs-navbar-color: rgba(0, 0, 0, 0.1);
+}
+
+.bg-light{
+	--bs-bg-opacity: 0;
+}
