@@ -50,3 +50,7 @@ h1 span:nth-child(5){
 .bg-light{
 	--bs-bg-opacity: 0;
 }
+
+#lala{
+	font-size: 16px;
+}
