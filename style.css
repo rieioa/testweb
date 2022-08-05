@@ -12,20 +12,31 @@ h1 span:nth-child(5){
 	color : #fd003a;
 }
 
+header{
+	position: sticky;
+	top: 0;
+	opacity: 0.7;
+}
+
+#jobbi{
+	text-align: center;
+	font-size: 4rem;
+}
+
+#jobbi span:nth-child(1){
+	color : #0edeff;
+}
+
+#jobbi span:nth-child(5){
+	color : #fd003a;
+}
+
 .link{
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .content{
-	text-align: center;
-	margin-top: 10px;
 	font-size: 1.3rem;
-}
-
-.contents{
-	text-align: center;
-	margin-top: 30px;
-	font-size: 0.8rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -47,10 +58,54 @@ h1 span:nth-child(5){
 	--bs-navbar-color: rgba(0, 0, 0, 0.1);
 }
 
-.bg-light{
-	--bs-bg-opacity: 0;
-}
 
 #lala{
 	font-size: 16px;
+}
+
+
+#offcan-toggler{
+	width: 25px;
+	height: 20px;	
+}
+
+#offcanvasRight{
+	width: 300px;
+}
+
+.about-row{
+	border-bottom: 1px solid #dee2e6;
+	
+}
+
+.about-row .about-col{
+	padding: 30px;
+	border-right: 1px solid #dee2e6;
+}
+
+#col-2, #col-3{
+	text-align: center;
+}
+
+.dummy{
+	text-align: center;
+	height: 700px;
+}
+
+#offcanvas-close-btn{
+	margin-right:10px;
+}
+
+.section{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.section .dummy{
+	padding: 10px;
+	color: blue;
+}
+
+#a575{
+	width: 100%;
 }

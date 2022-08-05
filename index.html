@@ -14,55 +14,119 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://namu.wiki/w/HTML/%ED%83%9C%EA%B7%B81">NamuWiki</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
-                        </li>
-                    </ul>
+        <header class="bg-light">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="https://jobbi.ga/">JoBBi</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://google.co.kr">Google</a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="https://namu.wiki/w/HTML/%ED%83%9C%EA%B7%B8"
+                                    >NamuWiki</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <input
+                        type="image"
+                        src="data:image/png;base64,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"
+                        id="offcan-toggler"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight"
+                    />
+
+                    <div
+                        class="offcanvas offcanvas-end"
+                        tabindex="-1"
+                        id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel"
+                    >
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                                있어보이는 팝업창
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"
+								id="offcanvas-close-btn"
+                            ></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            는 텅텅 비어버린...
+                        </div>
+                    </div>
+                    <!--offcanvas-->
+					
+                </div>
+                <!-- navbar-->
+            </nav>
+            <div id="jobbi">
+                <span>J</span><span>o</span><span>B</span><span>B</span><span>i</span>
+            </div>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row about-row">
+                <div class="col-lg-4 about-col">
+                    <div class="content">
+                        조B의 사지방 웹개발 테스팅 페이지입니다.
+                        <div class="link" id="lala">
+                            <a
+                                href="https://getbootstrap.com/docs/5.2/getting-started/introduction/"
+                                >Bootstrap</a
+                            ><br>
+                            <a href="http://www.tcpschool.com/html-tag-attrs/link-rel"
+                                >html 속성 정리</a
+                            ><br>
+							<a href="https://webclub.tistory.com/617"
+                                >좋고수 블로그</a
+                            ><br>
+							<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page281/john-doe/#resume"
+                                >css 템플릿</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 about-col" id="col-2">
+                    2
+                </div>
+                <div class="col-lg-4 about-col" id="col-3">
+                    3
                 </div>
             </div>
-        </nav>
-
-        <h1><span>J</span><span>o</span><span>B</span><span>B</span><span>i</span></h1>
-        <div class="content">
-            조B의 사지방 웹개발 테스팅 페이지입니다.
-            <div class="link" id="lala">
-                <a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/">Bootstrap</a>
-				<a href="http://www.tcpschool.com/html-tag-attrs/link-rel">html 속성 정리</a>
-            </div>
         </div>
-
-        <form method="get">
-            이름 : <input type="text" name="st_name" /><br />
-            학번 : <input type="text" name="st_id" /><br />
-            학과 : <input type="text" name="department" /><br />
-            <input type="submit" />
-        </form>
 		
+		<section class="section">
+            <div class="dummy">
+				<img src="575.jpg" id="a575">
+            </div>
+		</section>
 		
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
