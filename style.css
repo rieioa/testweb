@@ -1,111 +1,109 @@
-h1{
-	text-align: center;
-	font-size: 4rem;
-	margin-top: 60px;
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 60px;
 }
 
-h1 span:nth-child(1){
-	color : #0edeff;
+h1 span:nth-child(1) {
+    color: #0edeff;
 }
 
-h1 span:nth-child(5){
-	color : #fd003a;
+h1 span:nth-child(5) {
+    color: #fd003a;
 }
 
-header{
-	position: sticky;
-	top: 0;
-	opacity: 0.7;
+header {
+    position: sticky;
+    top: 0;
+    opacity: 0.7;
 }
 
-#jobbi{
-	text-align: center;
-	font-size: 4rem;
+#jobbi {
+    text-align: center;
+    font-size: 4rem;
 }
 
-#jobbi span:nth-child(1){
-	color : #0edeff;
+#jobbi span:nth-child(1) {
+    color: #0edeff;
 }
 
-#jobbi span:nth-child(5){
-	color : #fd003a;
+#jobbi span:nth-child(5) {
+    color: #fd003a;
 }
 
-.link{
-	margin-top: 10px;
+.link {
+    margin-top: 10px;
 }
 
-.content{
-	font-size: 1.3rem;
+.content {
+    font-size: 1.3rem;
 }
 
 @media screen and (max-width: 600px) {
-.content {
-    font-size: 20px;
-  }
+    .content {
+        font-size: 20px;
+    }
 }
 
-.first{
-	font-size: 0.85rem;
+.first {
+    font-size: 0.85rem;
 }
 
-.nav-padding{
-	padding: 50% 1%;
+.nav-padding {
+    padding: 50% 1%;
 }
 
-.navbar{
-	--bs-navbar-toggler-border-color: rgba(255,255,255,1);
-	--bs-navbar-color: rgba(0, 0, 0, 0.1);
+.navbar {
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 1);
+    --bs-navbar-color: rgba(0, 0, 0, 0.1);
 }
 
-
-#lala{
-	font-size: 16px;
+#lala {
+    font-size: 16px;
 }
 
-
-#offcan-toggler{
-	width: 25px;
-	height: 20px;	
+#offcan-toggler {
+    width: 24px;
+    height: 20px;
 }
 
-#offcanvasRight{
-	width: 300px;
+#offcanvasRight {
+    width: 300px;
 }
 
-.about-row{
-	border-bottom: 1px solid #dee2e6;
-	
+.about-row {
+    border-bottom: 1px solid #dee2e6;
 }
 
-.about-row .about-col{
-	padding: 30px;
-	border-right: 1px solid #dee2e6;
+.about-row .about-col {
+    padding: 30px;
+    border-right: 1px solid #dee2e6;
 }
 
-#col-2, #col-3{
-	text-align: center;
+#col-2,
+#col-3 {
+    text-align: center;
 }
 
-.dummy{
-	text-align: center;
-	height: 700px;
+.dummy {
+    text-align: center;
+    height: 700px;
 }
 
-#offcanvas-close-btn{
-	margin-right:10px;
+#offcanvas-close-btn {
+    margin-right: 10px;
 }
 
-.section{
-	margin-top: 10px;
-	margin-bottom: 10px;
+.section {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.section .dummy{
-	padding: 10px;
-	color: blue;
+.section .dummy {
+    padding: 10px;
+    color: blue;
 }
 
-#a575{
-	width: 100%;
+#a575 {
+    width: 100%;
 }
