@@ -10,48 +10,60 @@
             integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
             crossorigin="anonymous"
         />
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://kit.fontawesome.com/ac2cd998de.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css" />
     </head>
 
     <body>
-        <header class="bg-light">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="https://jobbi.ga/">JoBBi</a>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
+        <header class="bg-light sticky-top">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#" style="font-size: 25px;">JoBBi</a>
+                        <div class="social-icons" style="font-size: 24px;">
+                            <a href="https://www.instagram.com/tihs_yppup/">
+                                <i class="fab social-item fa-instagram"></i>
+                            </a>
+							<a href="#">
+                        		<i class="fab social-item fa-facebook"></i>
+							</a>
+                            <a href="https://github.com/rieioa">
+                                <i class="fab social-item fa-square-github"></i>
+                            </a>
+                            <a href="mailto:whtjdgus46@gmail.com">
+                                <i class="fas social-item fa-envelope"></i>
+                            </a>
+                        </div>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup"
+                            aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <div class="stage">
+                                <div class="hamburger">
+                                    <div class="line-top"></div>
+                                    <div class="line-middle"></div>
+                                    <div class="line-bottom"></div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://google.co.kr">Google</a>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link"
-                                    href="https://namu.wiki/w/HTML/%ED%83%9C%EA%B7%B8"
-                                    >NamuWiki</a
-                                >
-                            </li>
-                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#">Pricing</a>
                                 <a class="nav-link disabled">Disabled</a>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
+                        <!--navbar contents-->
                     </div>
-                </div>
-                <!-- navbar-->
-            </nav>
+                </nav>
+            </div>
             <div id="jobbi">
                 <span>J</span><span>o</span><span>B</span><span>B</span><span>i</span>
             </div>
@@ -59,7 +71,7 @@
 
         <div class="container-fluid">
             <div class="row about-row">
-                <div class="col-lg-4 about-col">
+                <div class="col-lg-4 about-col" id="col-1">
                     <div class="content">
                         조B의 사지방 웹개발 테스팅 페이지입니다.
                         <div class="ref-page">
@@ -98,5 +110,6 @@
             integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
             crossorigin="anonymous"
         ></script>
+        <script type="text/javascript" src="index.js?ver=4"></script>
     </body>
 </html>

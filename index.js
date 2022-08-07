@@ -1,5 +1,5 @@
 $(function() {
-  $(".container").on("click", function() {
+  $(".hamburger").on("click", function() {
     var that = $(this);
     if (that.hasClass("is-open")) {
       that.removeClass("is-open").addClass("is-closed");
