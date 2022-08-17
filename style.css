@@ -9,14 +9,19 @@
         --bs-navbar-padding-y: 0;
     }
 }
-
+:root {
+    --rate: 40;
+}
+body {
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
+}
 header {
     opacity: 0.7;
 }
 #jobbi {
     text-align: center;
     font-size: 4rem;
-
 }
 #jobbi span:nth-child(1) {
     color: #0edeff;
@@ -88,14 +93,66 @@ header {
 
 .fa-instagram {
     padding-left: 20px;
-	color: #f9833d;
+    color: #f9833d;
 }
-.fa-square-github{
-	color: #000000;
+.fa-square-github {
+    color: #000000;
 }
 .fa-envelope {
     padding-right: 20px;
-	color: #ff2222;
+    color: #ff2222;
+}
+
+.freebar {
+    height: 18px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+.progress-moved {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    width: 50%;
+}
+.progress-moved .freebar {
+    background-color: #f3c623;
+    animation: progress 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes progress {
+    0% {
+        width: 0%;
+        background: #f9bcca;
+        box-shadow: 0 0 40px #f9bcca;
+    }
+
+    100% {
+        width: calc(var(--rate) * 1%);
+        background: #f3c623;
+        box-shadow: 0 0 40px #f3c623;
+    }
+}
+
+.loader {
+    --p: 0;
+    animation: p 5s steps(100);
+    animation-fill-mode: forwards;
+    counter-reset: p var(--p);
+    font-size: 20px;
+    position: relative;
+    color: #888888;
+}
+
+.loader:after {
+    content: '   해방까지 ' counter(p) '%...';
+}
+
+@keyframes p {
+    90%,
+    100% {
+        --p: var(--rate);
+    }
 }
 
 .hamburger {
