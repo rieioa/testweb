@@ -19,9 +19,14 @@ body {
 header {
     opacity: 0.7;
 }
+.page-head{
+	align-items: flex-start !important;
+}
 #jobbi {
     text-align: center;
     font-size: 4rem;
+	margin-top: -35px;
+
 }
 #jobbi span:nth-child(1) {
     color: #0edeff;
